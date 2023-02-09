@@ -377,7 +377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1918423566}
   isCustomOffset: 1
-  offset: {x: -1, y: 1, z: -1}
+  offset: {x: 0, y: 3, z: -2}
   smoothSpeed: 0.1
 --- !u!1001 &1687983222
 PrefabInstance:
