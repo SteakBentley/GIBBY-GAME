@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
 
     //Movement
     [SerializeField] private int speed = 5;
+    [SerializeField] private float rotationSpeed = 5f;
     [SerializeField] private Vector3 moveDirection;
     [SerializeField] private CharacterController controller;
     //Animation
@@ -26,6 +27,15 @@ public class Movement : MonoBehaviour
         moveDirection = new Vector3(horizontal, 0, vertical);
         moveDirection *= speed;
         controller.Move(moveDirection * Time.deltaTime);
+
+        //rotation
+        if (moveDirection != Vector3.zero)
+        {
+
+            
+           Quaternion toRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
+           transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
+        }
 
         //animation
         if (moveDirection == Vector3.zero)
