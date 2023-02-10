@@ -377,7 +377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1918423566}
   isCustomOffset: 1
-  offset: {x: 0, y: 3, z: -2}
+  offset: {x: 0, y: 2, z: -1}
   smoothSpeed: 0.1
 --- !u!1001 &1687983222
 PrefabInstance:
@@ -499,4 +499,4 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0.004}
+  m_Center: {x: 0, y: 0.00479, z: 0}
