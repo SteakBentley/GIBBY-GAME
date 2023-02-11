@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit EducationN' Language: 'en' Physical Memory: 16310 MB
+OS: 'Windows 10  (10.0.18363) 64bit Core' Language: 'en' Physical Memory: 16337 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\Unity 2021.3.16f1\Editor\Unity.exe
+E:\The Nonsense I Make\Unity\2021.3.16f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/b00080929/Documents/GitHub/GIBBY-GAMEV2
+G:/Unity/GIBBY-GAME-main
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57338
-Successfully changed project path to: C:/Users/b00080929/Documents/GitHub/GIBBY-GAMEV2
-C:/Users/b00080929/Documents/GitHub/GIBBY-GAMEV2
+65075
+Successfully changed project path to: G:/Unity/GIBBY-GAME-main
+G:/Unity/GIBBY-GAME-main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,109 +47,114 @@ C:/Users/b00080929/Documents/GitHub/GIBBY-GAMEV2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21864] Host "[IP] 10.89.48.248 [Port] 0 [Flags] 2 [Guid] 3755719146 [EditorId] 3755719146 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9U4O7T0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8580] Host "[IP] 10.10.1.5 [Port] 0 [Flags] 2 [Guid] 2131044864 [EditorId] 2131044864 [Version] 1048832 [Id] WindowsEditor(7,RustyBucketBay) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21864] Host "[IP] 10.89.48.248 [Port] 0 [Flags] 2 [Guid] 3755719146 [EditorId] 3755719146 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9U4O7T0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8580] Host "[IP] 10.10.1.5 [Port] 0 [Flags] 2 [Guid] 2131044864 [EditorId] 2131044864 [Version] 1048832 [Id] WindowsEditor(7,RustyBucketBay) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 61.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/Unity 2021.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/b00080929/Documents/GitHub/GIBBY-GAMEV2/Assets
+[Subsystems] Discovering subsystems at path E:/The Nonsense I Make/Unity/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Unity/GIBBY-GAME-main/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
     Vendor:   NVIDIA
-    VRAM:     8038 MB
-    Driver:   31.0.15.2824
+    VRAM:     8001 MB
+    Driver:   31.0.15.2756
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.16f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Mono path[0] = 'E:/The Nonsense I Make/Unity/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'E:/The Nonsense I Make/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/The Nonsense I Make/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/Unity 2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007192 seconds.
+Register platform support module: E:/The Nonsense I Make/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: E:/The Nonsense I Make/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.002860 seconds.
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.470 seconds
+- Completed reload, in  0.628 seconds
 Domain Reload Profiling:
-	ReloadAssembly (470ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (629ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (309ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (179ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (270ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
+				RefreshPlugins (73ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005011 seconds.
+Registered in 0.004784 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\b00080929\Documents\GitHub\GIBBY-GAMEV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\b00080929\Documents\GitHub\GIBBY-GAMEV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\GIBBY-GAME-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\GIBBY-GAME-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.744 seconds
+- Completed reload, in  1.068 seconds
 Domain Reload Profiling:
-	ReloadAssembly (744ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (1069ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (571ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (252ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Failed to load shader (instanceID 396, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 398, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (55.8 KB). Loaded Objects now: 3822.
-Memory consumption went from 115.7 MB to 115.7 MB.
-Total: 3.215400 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.142600 ms MarkObjects: 2.705100 ms  DeleteObjects: 0.114800 ms)
+Unloading 3361 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.9 KB). Loaded Objects now: 3820.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 2.727100 ms (FindLiveObjects: 0.251400 ms CreateObjectMapping: 0.184500 ms MarkObjects: 2.221500 ms  DeleteObjects: 0.069000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,111 +168,77 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 572581.782152 seconds.
-  path: Assets/characters/gibbon/gibbon.fbx
-  artifactKey: Guid(b91dcde688c72b44a9bf5ee48fdcab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/characters/gibbon/gibbon.fbx using Guid(b91dcde688c72b44a9bf5ee48fdcab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1d8f81856dfa92d4625e4282225ece') in 0.182383 seconds 
+  Time since last request: 307433.574305 seconds.
+  path: Assets/characters/gibbon/textures/Gibbon Fur Texture.png
+  artifactKey: Guid(64895ed5ec391bc40838d3b8cbf410b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/gibbon/textures/Gibbon Fur Texture.png using Guid(64895ed5ec391bc40838d3b8cbf410b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa90b99ff9644bb8902d340a4a0936b') in 0.117038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.828168 seconds.
+  path: Assets/characters/gibbon/textures/Bandana.mat
+  artifactKey: Guid(948330d5cc90cec40b94d39c792e00e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/gibbon/textures/Bandana.mat using Guid(948330d5cc90cec40b94d39c792e00e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820107c57bbb3392bf4cc967d8c38499') in 0.251952 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004724 seconds.
+Registered in 0.005330 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\b00080929\Documents\GitHub\GIBBY-GAMEV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\b00080929\Documents\GitHub\GIBBY-GAMEV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.783 seconds
-Domain Reload Profiling:
-	ReloadAssembly (784ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (592ms)
-			LoadAssemblies (70ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (200ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (258ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3356 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3836.
-Memory consumption went from 120.1 MB to 120.1 MB.
-Total: 2.688600 ms (FindLiveObjects: 0.214500 ms CreateObjectMapping: 0.137200 ms MarkObjects: 2.318800 ms  DeleteObjects: 0.017600 ms)
+IOException: Sharing violation on path G:\Unity\GIBBY-GAME-main\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <75633565436c42f0a6426b33f0132ade>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <75633565436c42f0a6426b33f0132ade>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <75633565436c42f0a6426b33f0132ade>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <75633565436c42f0a6426b33f0132ade>:0 
+  at UnityEditor.SettingsManagement.PackageSettingsRepository.Save () [0x00070] in G:\Unity\GIBBY-GAME-main\Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\PackageSettingsRepository.cs:144 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <11d97693183d4a6bb35c29ae7882c66b>:0 
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004592 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\b00080929\Documents\GitHub\GIBBY-GAMEV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\b00080929\Documents\GitHub\GIBBY-GAMEV2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+(Filename: Library/PackageCache/com.unity.settings-manager@1.0.3/Editor/PackageSettingsRepository.cs Line: 144)
+
+Symbol file LoadedFromMemory doesn't match image G:\Unity\GIBBY-GAME-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\GIBBY-GAME-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
+- Completed reload, in  1.071 seconds
 Domain Reload Profiling:
-	ReloadAssembly (756ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1072ms)
+		BeginReloadAssembly (233ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (566ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (254ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Failed to load shader (instanceID 396, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 398, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3356 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3839.
-Memory consumption went from 120.1 MB to 120.1 MB.
-Total: 2.720800 ms (FindLiveObjects: 0.283600 ms CreateObjectMapping: 0.128700 ms MarkObjects: 2.288800 ms  DeleteObjects: 0.019000 ms)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3866.
+Memory consumption went from 120.2 MB to 120.2 MB.
+Total: 3.036000 ms (FindLiveObjects: 0.237800 ms CreateObjectMapping: 0.166800 ms MarkObjects: 2.609800 ms  DeleteObjects: 0.020800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -279,3 +250,150 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005221 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Unity\GIBBY-GAME-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Unity\GIBBY-GAME-main\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (764ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 396, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 398, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3356 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3869.
+Memory consumption went from 120.2 MB to 120.2 MB.
+Total: 4.467400 ms (FindLiveObjects: 0.376100 ms CreateObjectMapping: 0.599400 ms MarkObjects: 3.469400 ms  DeleteObjects: 0.021300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 126.651642 seconds.
+  path: Assets/characters/gibbon/gibbon.fbx
+  artifactKey: Guid(b91dcde688c72b44a9bf5ee48fdcab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/gibbon/gibbon.fbx using Guid(b91dcde688c72b44a9bf5ee48fdcab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d4d4f936e108ca24d590bcaa77249f') in 0.248031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.816733 seconds.
+  path: Assets/Environment/Cube.prefab
+  artifactKey: Guid(918f234ef8f5ee046a7eb098104e5b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Cube.prefab using Guid(918f234ef8f5ee046a7eb098104e5b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084e9528c6ab593344267d177b405b36') in 0.011952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.760633 seconds.
+  path: Assets/Material/Gray.mat
+  artifactKey: Guid(6b5d0074647878844bb7158555748cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Gray.mat using Guid(6b5d0074647878844bb7158555748cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c242593302a92b738ef9921b67396560') in 0.025464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.110881 seconds.
+  path: Assets/Material/WOOD
+  artifactKey: Guid(db9e52cdd54b94140aa1e11388ee6864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WOOD using Guid(db9e52cdd54b94140aa1e11388ee6864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5be715b9a076ee49620e850fdcacc27') in 0.016565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.779058 seconds.
+  path: Assets/Material/WOOD/WOOD_Planks
+  artifactKey: Guid(f87043db2fef5844a8566b80dbbfd7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WOOD/WOOD_Planks using Guid(f87043db2fef5844a8566b80dbbfd7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3413a91b048b64c6537bf64e1fb6f437') in 0.002273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.696567 seconds.
+  path: Assets/Material/WOOD/WOOD_Planks/Materials
+  artifactKey: Guid(631c2027e9c49fe47b872278e831b4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WOOD/WOOD_Planks/Materials using Guid(631c2027e9c49fe47b872278e831b4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24f35cc9a59dc7f3c3ccf135e0521ce') in 0.004146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072922 seconds.
+  path: Assets/Material/WOOD/WOOD_Planks/Materials/Wood_Planks_B.mat
+  artifactKey: Guid(0744bcab18e19e444b1498ebfd1b47b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WOOD/WOOD_Planks/Materials/Wood_Planks_B.mat using Guid(0744bcab18e19e444b1498ebfd1b47b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db66a901ffef1cb4e9482f6b48227801') in 0.007950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.396317 seconds.
+  path: Assets/Material/WOOD/WOOD_Planks/Textures
+  artifactKey: Guid(c8ba3188fcf8d6a48b9ec07a856847fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WOOD/WOOD_Planks/Textures using Guid(c8ba3188fcf8d6a48b9ec07a856847fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbae98807e0f02013ce1495add5d2a3') in 0.002217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058390 seconds.
+  path: Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_A_AO.png
+  artifactKey: Guid(c624015efb5eb544caf58af7079bf884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_A_AO.png using Guid(c624015efb5eb544caf58af7079bf884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12601972a32dd0fa495339ea5cb2b61f') in 0.002706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_A_Metallic.png
+  artifactKey: Guid(41e7795940143ee48976911c58ba5476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_A_Metallic.png using Guid(41e7795940143ee48976911c58ba5476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a93b7a285fe37941ae9fd03ff148adb') in 0.002633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_B_Normal.png
+  artifactKey: Guid(2212317a132eedc4dae6627a41197b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_B_Normal.png using Guid(2212317a132eedc4dae6627a41197b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12c413a56e3cf2f0ee77b2060860617') in 0.003022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_A_Height.png
+  artifactKey: Guid(90e365f3a60aa554bbaff50bb8567dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_A_Height.png using Guid(90e365f3a60aa554bbaff50bb8567dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab925a3342be771132be36ba01fc597b') in 0.002234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_B_Basecolor.png
+  artifactKey: Guid(5afcfbbc56406fd47a8bb6e1a3da98dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_B_Basecolor.png using Guid(5afcfbbc56406fd47a8bb6e1a3da98dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59d4e3e78d0fdd76a59612c069e4d1d') in 0.002055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_A_Normal.png
+  artifactKey: Guid(2ab9221e9e79b1a4cb6264385c3bacab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/WOOD/WOOD_Planks/Textures/Wood_Planks_A_Normal.png using Guid(2ab9221e9e79b1a4cb6264385c3bacab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446f5a83bad7cd42af0cd6721b440c4e') in 0.002536 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
