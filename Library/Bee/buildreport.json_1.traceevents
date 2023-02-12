@@ -1,0 +1,536 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676171821328842, "dur": 2524718, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676171821329163, "dur": 2705, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676171821331869, "dur": 21467, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676171821353338, "dur": 452221, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676171821805561, "dur": 2046678, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676171823852240, "dur": 1319, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676171823853727, "dur": 9, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676171821616194, "dur": 176402, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676171821617268, "dur": 38804, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676171821774936, "dur": 5734, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676171821780674, "dur": 11916, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676171821781551, "dur": 9406, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676171821796479, "dur": 1148, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676171821795727, "dur": 1919, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676171823853766, "dur": 74, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676171821871350, "dur":1025, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171821872383, "dur":47, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676171821872440, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676171821872454, "dur":398, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676171821872869, "dur":409, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171821873278, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828195, "dur":378, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828573, "dur":119, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828693, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828694, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828711, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828713, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828728, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828730, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828744, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828745, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828762, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828764, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828780, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828781, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828796, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828797, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828811, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828813, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828828, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828829, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828844, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828845, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828860, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828862, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828875, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828883, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823828889, "dur":2673, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676171821873703, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171821873703, "dur":2470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171821876174, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1676171821876244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171821881765, "dur":44546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1676171821926323, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1676171821926345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171821926349, "dur":82377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1676171822008740, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822008814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171822008817, "dur":5611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822014438, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822014519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171822014523, "dur":7190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822021722, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822021795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171822021798, "dur":3872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822025700, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822025806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171822025812, "dur":6659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822032481, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822032544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171822032547, "dur":3683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822036241, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822036556, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171822036562, "dur":11243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822047815, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822047942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171822047946, "dur":13569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822061524, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822062060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171822062063, "dur":23671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676171822085743, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1676171822085802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676171822088660, "dur":17910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1676171822106582, "dur":1721614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821873266, "dur":96, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821873362, "dur":2804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821876175, "dur":77682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1676171821953859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821954241, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1676171821956090, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821956193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821956559, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821957632, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821957698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821957710, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821958691, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821958761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821958764, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821960367, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821960442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821960445, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821962221, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821962307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821962311, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821964235, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821964306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821964310, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821966140, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821966234, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821966237, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821969444, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821969511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821969515, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821971577, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821971642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821971645, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821973823, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821973932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821973935, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821975948, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821976038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821976042, "dur":3158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821979209, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821979279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821979282, "dur":4043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821983334, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821983411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821983415, "dur":5873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821989298, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821989372, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821989376, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821991647, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821991717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821991720, "dur":1832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821993560, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821993623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821993626, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821996142, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821996209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821996343, "dur":2866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821999222, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171821999376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171821999379, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822003182, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822003282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822003285, "dur":2797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822006096, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822006165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822006181, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822009179, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822009314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822009319, "dur":7146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822016475, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822016581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822016584, "dur":4574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822021166, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822021270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822021274, "dur":4383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822025672, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822026114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822026117, "dur":6635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822032761, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822032819, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822032822, "dur":3399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822036230, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822036313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822036316, "dur":11259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822047584, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822047654, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822047658, "dur":12579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822060249, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822060417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822060420, "dur":14714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822075144, "dur":3385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822078531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822078536, "dur":21506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676171822100053, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1676171822100063, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676171822100067, "dur":10754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1676171822110829, "dur":1717407, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676171821873610, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676171821873610, "dur":2589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676171821876199, "dur":68530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676171821944732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676171821944744, "dur":2079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1676171821946834, "dur":181297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676171822128135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676171822129805, "dur":97014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676171822226841, "dur":1601355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821873383, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821873383, "dur":2816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821876199, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1676171821876248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821884664, "dur":85409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1676171821970088, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821970154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821970158, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821972349, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821972417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821972421, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821974107, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821974173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821974176, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821976096, "dur":925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821977023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821977027, "dur":6498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821983533, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821983727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821983731, "dur":5873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821989614, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821989732, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821989735, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821991919, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821991984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821991987, "dur":2268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821994262, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821994333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821994336, "dur":2195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821996540, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821996605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821996608, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821999673, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171821999739, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171821999742, "dur":3421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822003174, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822003239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171822003243, "dur":2829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822006081, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822006147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171822006150, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822009183, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822009252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171822009256, "dur":3047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822012312, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822012382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171822012385, "dur":8470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822020865, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822021038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171822021042, "dur":4458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822025513, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822025632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171822025635, "dur":6817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822032461, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822032553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171822032556, "dur":3654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822036219, "dur":2499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822038720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171822038723, "dur":21335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822060070, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822060152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171822060157, "dur":10982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822071150, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822071261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171822071280, "dur":17395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676171822088690, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676171822088708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676171822088711, "dur":220491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676171822309213, "dur":1519024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171821873258, "dur":68, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171821873326, "dur":2841, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171821876174, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676171821876244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171821883888, "dur":37011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676171821920917, "dur":80093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1676171822001012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171822001016, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1676171822003708, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822003882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171822003885, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822007882, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822007957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171822007961, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822011452, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822011520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171822011524, "dur":9229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822020764, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822020834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171822020853, "dur":4203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822025065, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822025340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171822025344, "dur":6607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822031964, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822032043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171822032046, "dur":3192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822035246, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822035314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171822035318, "dur":5952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822041280, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822041989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171822041992, "dur":18070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822060072, "dur":909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822060983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171822060987, "dur":24762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676171822085758, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1676171822085770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676171822085781, "dur":20953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1676171822106743, "dur":1721492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676171821873142, "dur":178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676171821873321, "dur":2849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676171821876175, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1676171821876236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676171821879883, "dur":45589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1676171821925487, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1676171821925515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676171821925521, "dur":26003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1676171821951535, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame.exe" }}
+,{ "pid":12345, "tid":6, "ts":1676171821952036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676171821952038, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame.exe" }}
+,{ "pid":12345, "tid":6, "ts":1676171821955766, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1676171821955787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676171821956179, "dur":103745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1676171822059944, "dur":1654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676171822061600, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676171822061603, "dur":27088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676171822088700, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676171822088718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676171822088724, "dur":14638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1676171822103377, "dur":1724818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676171821873611, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676171821873611, "dur":2576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676171821876188, "dur":69492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676171821945682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676171821945693, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1676171821948088, "dur":1421339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676171823369431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676171823369461, "dur":83424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676171823452903, "dur":375324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676171821873543, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676171821873544, "dur":2624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676171821876174, "dur":69901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1676171821946079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676171821946083, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1676171821948402, "dur":1611941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676171823560347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676171823560352, "dur":267798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676171823828170, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1676171823828172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821873494, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821873494, "dur":2694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821876188, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1676171821876241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821882341, "dur":20938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1676171821903292, "dur":55598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1676171821958892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821958897, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1676171821960674, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821960781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821960784, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821962500, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821962566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821962570, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821964361, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821964428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821964432, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821966291, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821966358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821966375, "dur":3396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821969780, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821969844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821969848, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821971727, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821971810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821971813, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821974133, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821974212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821974215, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821976267, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821976499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821976502, "dur":5368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821981880, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821981958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821981961, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821983862, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821983969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821983973, "dur":5842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821989827, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821989905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821989909, "dur":2876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821992793, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821992861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821992865, "dur":2045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821994917, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821994982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821994985, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821996713, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171821996845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171821996848, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822000230, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822000303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822000306, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822003351, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822003417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822003420, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822006383, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822006451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822006454, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822010191, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822010255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822010270, "dur":6216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822016500, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822016614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822016621, "dur":4688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822021318, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822021435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822021438, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822025340, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822025794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822025798, "dur":6807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822032615, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822032668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822032672, "dur":3384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822036064, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822036237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822036241, "dur":9959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822046211, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822046355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822046360, "dur":12824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822059193, "dur":2016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822061211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822061215, "dur":29566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1676171822090790, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1676171822090844, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822090847, "dur":12473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1676171822103329, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1676171822103339, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1676171822103342, "dur":13512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1676171822116864, "dur":1711328, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171821873095, "dur":220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171821873317, "dur":2848, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171821876174, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1676171821876180, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171821877906, "dur":1462, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1676171821879371, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1676171821879386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171821879992, "dur":4073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1676171821884066, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1676171821884089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171821884998, "dur":24909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1676171821909918, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1676171821909956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171821909969, "dur":115528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1676171822025513, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822025657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171822025660, "dur":6786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822032457, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822032519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171822032522, "dur":2915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822035454, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822035504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171822035508, "dur":5766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822041286, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822041430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171822041433, "dur":16678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822058122, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822058530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171822058535, "dur":19980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822078526, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822078771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171822078775, "dur":14062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1676171822092845, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1676171822092899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171822092903, "dur":7688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1676171822100599, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1676171822100609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1676171822100612, "dur":16422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1676171822117043, "dur":1711158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676171821873637, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676171821873638, "dur":2532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676171821876174, "dur":69804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1676171821945980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676171821945990, "dur":2733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1676171821948735, "dur":189642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1676171822138380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1676171822138385, "dur":113379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1676171822251781, "dur":1576454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171821873671, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171821873671, "dur":2501, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171821876175, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1676171821876240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171821879433, "dur":66911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1676171821946356, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1676171821946379, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171821946382, "dur":53457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1676171821999854, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822000017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822000021, "dur":3520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822003549, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822003679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822003683, "dur":3387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822007080, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822007151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822007154, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822010342, "dur":1143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822011487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822011490, "dur":10219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822021719, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822021794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822021798, "dur":3855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822025677, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822025763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822025770, "dur":6146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822031925, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822031987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822031992, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822034945, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822034997, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822035000, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822036706, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822036988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822036991, "dur":20201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822057205, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822057299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822057304, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822060950, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822061182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822061185, "dur":20578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822081772, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822081825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822081829, "dur":12950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1676171822094787, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1676171822094797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822094800, "dur":8527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1676171822103341, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1676171822103397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1676171822103400, "dur":11774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity/BUILDS/GIBBON GAME/Gibbygame_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1676171822115183, "dur":1713045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676171823834483, "dur":1453, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676171823853865, "dur": 515, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676171823853719, "dur": 675, "ph": "X", "name": "Write chrome-trace events", "args": {} },
