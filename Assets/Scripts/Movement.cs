@@ -8,8 +8,10 @@ public class Movement : MonoBehaviour
     //Movement
     [SerializeField] private int speed = 5;
     [SerializeField] private float rotationSpeed = 5f;
+    [SerializeField] private float jumpForce;
     [SerializeField] private Vector3 moveDirection;
     [SerializeField] private CharacterController controller;
+    [SerializeField] private float ySpeed;
     //Animation
     private Animator animator;
     void Start()
@@ -26,7 +28,6 @@ public class Movement : MonoBehaviour
 
         moveDirection = new Vector3(horizontal, 0, vertical);
         moveDirection *= speed;
-        controller.Move(moveDirection * Time.deltaTime);
 
         //rotation
         if (moveDirection != Vector3.zero)
@@ -37,6 +38,20 @@ public class Movement : MonoBehaviour
            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
 
+        // jumping
+        float magnitude = Mathf.Clamp01(moveDirection.magnitude) * speed;
+        ySpeed += Physics.gravity.y * Time.deltaTime;
+
+            if(Input.GetButtonDown("Jump"))
+            {
+                ySpeed = jumpForce;
+            }
+
+        Vector3 velocity = moveDirection;
+        velocity.y = ySpeed/15;
+        velocity.x = 0;
+        velocity.z = 0;
+        controller.Move(moveDirection * Time.deltaTime + velocity);
         //animation
         if (moveDirection == Vector3.zero)
         {
@@ -44,5 +59,12 @@ public class Movement : MonoBehaviour
         }
         else
             animator.SetFloat("Speed", 1f);
+
+        if (Input.GetButtonDown("Jump"))
+        {
+            animator.SetFloat("Jumping", 0f);
+        }
+        else
+            animator.SetFloat("Jumping", 1f);
     }
 }
