@@ -9,28 +9,38 @@ public class CameraFollow : MonoBehaviour
 
     public float smoothSpeed = 0.1f;
 
+    [SerializeField] private int speed = 5;
+    [SerializeField] private int sensitivity = 5;
+
+    private float currentX = 0f;
+    private float currentY = 0f;
+
     private void Start()
     {
-        // You can also specify your own offset from inspector
-        // by making isCustomOffset bool to true
         if (!isCustomOffset)
         {
             offset = transform.position - target.position;
         }
     }
 
-    private void LateUpdate()
+    private void Update()
     {
-        SmoothFollow();
-    }
+        currentX += Input.GetAxis("Mouse X") * sensitivity;
+        currentY -= Input.GetAxis("Mouse Y") * sensitivity;
+        currentY = Mathf.Clamp(currentY, -90f, 90f);
 
-    public void SmoothFollow()
-    {
-        Vector3 targetPos = target.position + offset;
-        Vector3 smoothFollow = Vector3.Lerp(transform.position,
-        targetPos, smoothSpeed);
+        Quaternion rotation = Quaternion.Euler(currentY, currentX, 0);
+        Vector3 targetPosition = target.position;
 
-        transform.position = smoothFollow;
+        // Ensure that the camera's Y position never goes below ground level
+        if (targetPosition.y < 0f)
+        {
+            targetPosition = new Vector3(targetPosition.x, 0f, targetPosition.z);
+        }
+
+        Vector3 desiredPosition = targetPosition + (rotation * offset);
+        transform.position = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         transform.LookAt(target);
     }
 }
+
