@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-
+    public Transform obj;
     //Movement
     [SerializeField] private int speed = 5;
     [SerializeField] private float rotationSpeed = 5f;
@@ -12,27 +12,40 @@ public class Movement : MonoBehaviour
     [SerializeField] private Vector3 moveDirection;
     [SerializeField] private CharacterController controller;
     [SerializeField] private float ySpeed;
+   // [SerializeField] private Rigidbody rb;
     //Animation
     private Animator animator;
     void Start()
     {
+        
         controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
     }
     void Update()
     {
 
+        
         //Get horizontal and vertical inputs (usually WASD or Arrow Keys)
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
+        Vector2 inputVec = new Vector2(horizontal, vertical);
+        inputVec.Normalize();
+        horizontal = inputVec.x;
+        vertical = inputVec.y;
 
-        moveDirection = new Vector3(horizontal, 0, vertical);
+
+
+        Vector3 fref = findForwardvector();
+        Vector3 rightref = findRightvector(fref);
+       
+        rightref = -1 * rightref;
+        moveDirection = (vertical * fref) + (horizontal * rightref);
+        
         moveDirection *= speed;
-
+        
         //rotation
         if (moveDirection != Vector3.zero)
         {
-
             
            Quaternion toRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
@@ -60,11 +73,27 @@ public class Movement : MonoBehaviour
         else
             animator.SetFloat("Speed", 1f);
 
-        if (Input.GetButtonDown("Jump"))
-        {
-            animator.SetFloat("Jumping", 0f);
-        }
-        else
-            animator.SetFloat("Jumping", 1f);
+    }
+
+    public Vector3 findForwardvector() {
+        Vector3 fref;
+
+        Vector3 camPosition = Camera.main.transform.position;
+        Vector3 gibPosition = obj.position;
+
+        
+        
+
+
+        fref = new Vector3(gibPosition.x - camPosition.x, 0, gibPosition.z - camPosition.z);
+        fref.Normalize();
+
+        return fref;
+    }
+    public Vector3 findRightvector(Vector3 fref)
+    {
+        Vector3 rightref = Vector3.Cross(fref, new Vector3(0, 1, 0));
+
+        return rightref;
     }
 }

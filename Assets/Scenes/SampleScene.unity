@@ -417,7 +417,6 @@ MonoBehaviour:
   isCustomOffset: 0
   offset: {x: 0, y: 2, z: -1}
   smoothSpeed: 0.1
-  speed: 5
   sensitivity: 5
 --- !u!1 &1451466794
 GameObject:
@@ -756,6 +755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789fd3d5582a77a4e889a62c5269db56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obj: {fileID: 1918423566}
   speed: 5
   rotationSpeed: 720
   jumpForce: 2.45

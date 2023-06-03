@@ -9,7 +9,7 @@ public class CameraFollow : MonoBehaviour
 
     public float smoothSpeed = 0.1f;
 
-    [SerializeField] private int speed = 5;
+  //  [SerializeField] private int speed = 5;
     [SerializeField] private int sensitivity = 5;
 
     private float currentX = 0f;
