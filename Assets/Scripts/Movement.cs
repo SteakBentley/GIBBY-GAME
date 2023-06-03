@@ -38,7 +38,7 @@ public class Movement : MonoBehaviour
         Vector3 fref = findForwardvector();
         Vector3 rightref = findRightvector(fref);
        
-        rightref = -1 * rightref;
+        
         moveDirection = (vertical * fref) + (horizontal * rightref);
         
         moveDirection *= speed;
@@ -94,6 +94,6 @@ public class Movement : MonoBehaviour
     {
         Vector3 rightref = Vector3.Cross(fref, new Vector3(0, 1, 0));
 
-        return rightref;
+        return -1 * rightref;
     }
 }
