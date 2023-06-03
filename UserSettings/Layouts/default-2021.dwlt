@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 56
+  controlID: 82
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimatorControllerTool
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -146,15 +146,15 @@ MonoBehaviour:
     y: 591
     width: 1450
     height: 356
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 18}
   - {fileID: 13}
   - {fileID: 17}
-  m_Selected: 2
+  m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 89
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 90
+  controlID: 19
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -402,14 +402,14 @@ MonoBehaviour:
     - {fileID: 6001486988341912874, guid: e5605781c476db3429eecea9bfd10c37, type: 2}
     - {fileID: -3242837899131878689, guid: 916e88c0b90c5cd4f8943af75b9e4f9f, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.8060606
+    - e00: 1
       e01: 0
       e02: 0
-      e03: 31.575745
+      e03: -78
       e10: 0
-      e11: 0.8060606
+      e11: 1
       e12: 0
-      e13: 71.42424
+      e13: 108
       e20: 0
       e21: 0
       e22: 1
@@ -418,14 +418,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.7
+    - e00: 0.74094707
       e01: 0
       e02: 0
-      e03: 123
+      e03: 116.52646
       e10: 0
-      e11: 0.7
+      e11: 0.74094707
       e12: 0
-      e13: 162
+      e13: 170.59889
       e20: 0
       e21: 0
       e22: 1
@@ -559,8 +559,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 82110000
-    m_LastClickedInstanceID: 4482
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000685a00003c5a0000d8590000085900008a5c0000285a0000f0590000d47f0000445a0000
     m_RenameOverlay:
